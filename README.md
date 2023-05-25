@@ -50,8 +50,7 @@ No.
 - [3D printed trackball holder assembly](https://www.thingiverse.com/thing:4667691)
 - 52mm ball: (I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works)
 - Three (3) [3mm ceramic bearing balls](https://www.bcprecision.com/products/3mm-zro2-zirconium-oxide-ceramic-ball-bearings-g5) 
-- [28 AWG wire](https://www.mouser.com/c/wire-cable/hook-up-wire/?wire%20gauge%20-%20awg=28%20AWG) 
-	I used these from Amazon so I could use a longer ground wire [28AWG Electric Wire](https://www.amazon.com/dp/B089Cq1C8L)
+- [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
 - 2 to 4 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82)
 - 2 M2.5 [M2.Hex Nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) if using the updated model
 ### Tools
