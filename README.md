@@ -126,5 +126,5 @@ No.
 - Fit the trackball assembly to the Azeron thumb rail.   
 - Reattach the palmrest
 - Place ball in cup.
-- Load firmware HEX file using the Teensy Loader.
+- Load firmware HEX file using the QMK Toolbox by pointing to the trackzeron_default.hex file then pressing the reset button on the underside of the controller, followed by clicking the flash button on the QMK toolbox application.
 - Enjoy trackball keypad
