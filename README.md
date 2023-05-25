@@ -38,8 +38,8 @@ See the [guide](#guide).
 Using two keypads simultaneously isn’t officially supported by the Azeron software (yet? seems like they're working on that), even if they’re both stock firmware/not modified, but a workaround for two unmodified keypads is to plug in one keypad, set the keybinds, then unplug. Plug in the second keypad and set those keybinds. You won't be able to change the keybinds while they're both plugged in, but they should work in-game.
 
 ### Do you have a video where you’re playing with both keypads together?
-Yes; there's a [YouTube clip](https://youtu.be/LT7abxc7oYk) of me playing Mass Effect Andromeda,
-and some of me playing Borderlands on [my Twitch channel](https://twitch.tv/allphobic13).
+Yes; there's a [YouTube clip](https://youtu.be/LT7abxc7oYk) of MK playing Mass Effect Andromeda,
+and some of him playing Borderlands on [my Twitch channel](https://twitch.tv/allphobic13).
 
 ### Can you make me one?
 No.
