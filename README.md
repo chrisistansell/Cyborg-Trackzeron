@@ -49,7 +49,9 @@ No.
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/)   
 - [3D printed trackball holder assembly](https://www.thingiverse.com/thing:4667691) I used the hex version so I had the mounts to the rail.  If you use the other model it is free standing.
 - 52mm ball: (I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works)
-- Three (3) [3mm ceramic bearing balls](https://www.bcprecision.com/products/3mm-zro2-zirconium-oxide-ceramic-ball-bearings-g5) 
+- Three (3) [3mm ceramic bearing balls](https://www.bcprecision.com/products/3mm-zro2-zirconium-oxide-ceramic-ball-bearings-g5)
+  - I had more success with ball balance with [3.5mm Ceramic bearing balls](https://www.amazon.com/dp/B0B5XH9D26)
+   - I hollowed the holes with a [File kit](https://www.amazon.com/gp/product/B084WTHG7J)
 - [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
 - 2 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82) This is to mount the trackball holder to the thumb rail.
 - 2 [M2.5x6 machine screws](https://www.amazon.com/gp/product/B0756W6Z5L) This is to mount the PMW3360 to the trackball holder.
