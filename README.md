@@ -1,3 +1,5 @@
+This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with.
+
 # TRACKzeron: Adding trackball functionality to the [Azeron Keypad](https://www.azeron.eu/)
 
 This repository contains source code and prebuilt firmware files for a modified Azeron keypad.
@@ -24,7 +26,7 @@ Trackball + Azeron = TRACKzeron.
 The firmware will not work. The new black mainboards have a different chip. The firmware was not designed for it. I cannot confirm whether the new mainboard can be rewired to accommodate the sensor. 
 
 ### Will this work on the Azeron Cyborg or Cyborg Compact model?
-No. The Cyborg models are wired differently. Unfortunately I have not figured out the rewiring and I do not have an ETA on if/when the Cyborg mod will be done.
+I am currently working on trying to move this to a Cyborg model using a Teensy 2.0++ board being specially installed for testing.  Will update this in the future.  ETA is to have something together by the middle of July.
 
 ### How did you add the trackball?
 See the [guide](#guide).
@@ -56,10 +58,13 @@ No.
 - 2 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82) This is to mount the trackball holder to the thumb rail.
 - 2 [M2.5x6 machine screws](https://www.amazon.com/gp/product/B0756W6Z5L) This is to mount the PMW3360 to the trackball holder.
 - 2 [M2.Hex Nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
+
 ### Tools
 - screwdrivers: hex, Philips, and flat heads 
 - precision tweezers
-- Soldering Iron & solder
+- soldering iron & solder 
+  - wick is optional but helpful if you have soldering issues to undo
+- wire friendly scissors (i use Klein)
 - wire stripper
 - wire cutters
 
@@ -111,7 +116,7 @@ No.
 	- MI: B3
 	- VI: +5V
 	
-!!!Note: If you experience disconnects between the mouse and the PMW3360 Optical sensor (mouse stops working) move the ground to the block.
+**NOTE:** If you experience disconnects between the mouse and the PMW3360 Optical sensor (mouse stops working) move the **ground to the block**.
 
 ![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
