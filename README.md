@@ -116,7 +116,7 @@ No.
 	- MI: B3
 	- VI: +5V
 	
-**NOTE:** If you experience disconnects between the mouse and the PMW3360 Optical sensor (mouse stops working) move the **ground to the block**.
+**NOTE:** If you experience disconnects between the mouse and the PMW3360 Optical sensor (mouse stops working) move the ***ground to the block***.
 
 ![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
