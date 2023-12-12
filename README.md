@@ -138,6 +138,8 @@ The following steps are for the Classic and Compact. I'm still working on the do
 ![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
 
+I used my own wiring for the optical sensor to the teensy board.  So I substituted the pink wire for a white wire because of the color spectrum in my wire kit.
+
 - Attach the sensor to the trackball assembly. 
 - Fit the trackball assembly to the Azeron thumb rail.   
 - Reattach the palmrest
