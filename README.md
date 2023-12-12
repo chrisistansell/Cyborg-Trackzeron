@@ -81,6 +81,9 @@ No.
 - wire cutters
 
 ### Preparing
+
+**NOTE:** It's important for the switches and sensor to be connected ***exactly as indicated*** or the device will not work.
+
 - 3D print the trackball assembly.   
 - Push the ceramic ball bearings into the trackball assembly.   
 - Strip and tin 7-9 inches of 28 AWG hookup wire OR desolder the wires attached to the thumbstick and D-pad. Need 6 wires.
@@ -135,7 +138,6 @@ The following steps are for the Classic and Compact. I'm still working on the do
 ![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
 
-**NOTE:** It's important for the switches and sensor to be connected ***exactly as indicated*** or the device will not work.
 - Attach the sensor to the trackball assembly. 
 - Fit the trackball assembly to the Azeron thumb rail.   
 - Reattach the palmrest
