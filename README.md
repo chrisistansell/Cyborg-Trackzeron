@@ -67,7 +67,7 @@ No.
 - 2 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82) This is to mount the trackball holder to the thumb rail.
 - 2 [M2.5x6 machine screws](https://www.amazon.com/gp/product/B0756W6Z5L) This is to mount the PMW3360 to the trackball holder.
 - 2 [M2.5 hex nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
-- 2 Optional [M2.5mm square nuts](https://www.etsy.com/listing/239501658/m25-square-rail-nuts?ref=yr_purchases) Cutouts are provided in the 3MF File. These can are placed behind the screw holes on the PCB to let the shroud lock tighter to the trackball mount.
+- 2 Optional [M2.5mm square nuts](https://www.etsy.com/listing/239501658/m25-square-rail-nuts?ref=yr_purchases) Cutouts are provided in the 3MF File. These can are placed behind the screw holes on the trackball optical sensor mounting area to provide firm connectivity of the shroud and the PCB to the trackball mount.  This will hold without adding these screws but if you take the shroud off a few times the M2.5 screws will start to lose their grip.
 
 ### Tools
 - screwdrivers: Azeron screwdriver with hex head, philips, and small flat head screwdriver to clean plastic from the 3D prints 
