@@ -53,7 +53,8 @@ No.
 ### Parts
 - [Azeron Keypad](https://www.azeron.eu/) (Classic, Compact, or Cyborg)
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/) (Updated link from Melaphor's instructions)
-- [3D printed trackball holder assembly](https://www.thingiverse.com/thing:4667691) I used the hex version so I had the mounts to the rail.  If you use the other model it is free standing.
+- [3D printed 52mm trackball holder assembly](https://www.thingiverse.com/thing:4667691) I used the hex version so I had the mounts to the rail.  If you use the other model it is free standing.
+- [3D printed 34mm trackball holder and shroud assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2034mm/42OD-36IDmm%20Trackzeron%20Clip%20and%20Shroud.3mf)
 ### Trackball Options
 - 52mm ball: (I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works)
 - 34mm Tackball: (This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
