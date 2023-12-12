@@ -90,8 +90,10 @@ No.
 	- MI    
 	- VI 
 
-### Rewire the Azeron
--   Remove the Azeron palmrest to reveal the Teensy Board
+### Rewire the Azeron 
+The following steps are for the Classic and Compact. I'm still working on the documentation for the Cyborg.
+
+- Remove the Azeron palmrest to reveal the Teensy Board
 
 ![Azeron-unchanged](https://user-images.githubusercontent.com/16569424/107108978-5b8f1f00-680a-11eb-86c0-2a26af66000b.png)   
 
