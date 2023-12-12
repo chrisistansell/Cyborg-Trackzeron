@@ -144,3 +144,5 @@ The following steps are for the Classic and Compact. I'm still working on the do
 - Place ball in cup.
 - Load firmware HEX file using the QMK Toolbox by pointing to the trackzeron_default.hex file then pressing the reset button on the underside of the controller, followed by clicking the flash button on the QMK toolbox application.
 - Enjoy trackball keypad
+
+Due to the complexity and my limit understanding, I have not been able to work the Azeron profiles into the design.  The toggle button on the palm rest of the Azeron will no longer function and the LEDs will no longer emit light.  I was able to get this to work in the Arduino software, but using this method for your firmware on the Trackzeron will lead to issues losing connectivity when your computer goes to sleep.  I'd recommend using the QMK format firmware available as a release download on this github page.
