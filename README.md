@@ -43,7 +43,7 @@ Using two keypads simultaneously isn’t officially supported by the Azeron soft
 
 ### Do you have a video where you’re playing with both keypads together?
 Yes; there's a [YouTube clip](https://youtu.be/LT7abxc7oYk) of MK playing Mass Effect Andromeda,
-and some of him playing Borderlands on [my Twitch channel](https://twitch.tv/allphobic13).
+and some of him playing Borderlands on [Twitch channel](https://twitch.tv/allphobic13).
 
 ### Can you make me one?
 No.
