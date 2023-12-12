@@ -57,8 +57,8 @@ No.
 - [3D printed 3MF 52mm trackball holder assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2052mm/52mm%20Trackball%20Bearing%20Hole%20Shift.3mf) I modified bearing locations to help support the trackball, especially if you are using the new Azeron stands. 
 - [3D printed 3MF 34mm trackball holder and shroud assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2034mm/42OD-36IDmm%20Trackzeron%20Clip%20and%20Shroud.3mf)
 ### Trackball Options
-- 52mm ball: (I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works)
-- 34mm Tackball: (This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
+- 52mm ball: I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works
+- 34mm Tackball: This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
 ### Bearings
 - Three (3) [3mm ceramic bearing balls](https://www.amazon.com/gp/product/B07SXJWLHN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)]
   - Make sure you get more than 3, these are super easy to lose in the floor!
