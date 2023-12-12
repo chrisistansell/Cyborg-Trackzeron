@@ -4,7 +4,7 @@ This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modific
 
 This repository contains source code and prebuilt firmware files for a modified Azeron keypad.
 
-![](https://user-images.githubusercontent.com/16569424/107110059-db20ec00-6812-11eb-9fe6-563b27339a3a.jpg)
+![](https://github.com/chrisistansell/trackzeron/blob/main/34mm%20Overview.jpeg)
 
 ## Only for Classic and Compact models with TEENSY++ 2.0 mainboards
 
