@@ -6,9 +6,13 @@ This repository contains source code and prebuilt firmware files for a modified 
 
 ![](https://github.com/chrisistansell/trackzeron/blob/main/34mm%20Overview.jpeg)
 
-## Only for Classic and Compact models with TEENSY++ 2.0 mainboards
+Side profile with shroud covering optical sensor.
 
-**This does not work with the Cyborg/Cyborg compact models.** It is for Azeron devices that use the Teensy++ 2.0 (green) mainboard. The Teensy++ 2.0 was discontinued in 2021, and Azeron started producing models with their proprietary ARM/STM32-based (black) mainboard in late-2022. I will not be adding support for the Azeron proprietary mainboards and there is no ETA on a mod for Cyborg models with Teensy mainboards.
+![](https://github.com/chrisistansell/trackzeron/blob/main/34mm%20Holder.jpeg)
+
+## Only for Classic, Compact, and Cyborg models with TEENSY++ 2.0 mainboards
+
+**This does not work with the Cyborg/Cyborg compact models.** It is for Azeron devices that use the Teensy++ 2.0 (green) mainboard. The Teensy++ 2.0 was discontinued in 2021, and Azeron started producing models with their proprietary ARM/STM32-based (black) mainboard in late-2022. Before making this modification make sure you have ordered a board with a Teensy++ 2.0 PCB.  This is not directly available on their website and you will have to special request it.  A Teensy++ 2.0 board can be purchased secondary market, you will probably want to purchase a terminal block with screw mounts to make it more connection friendly.
 
 ## Notes
 
@@ -47,20 +51,26 @@ No.
 ## Guide
 
 ### Parts
-- [Azeron Keypad](https://www.azeron.eu/) (Classic or Compact)
-- [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/)   
+- [Azeron Keypad](https://www.azeron.eu/) (Classic, Compact, or Cyborg)
+- [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/)]   
 - [3D printed trackball holder assembly](https://www.thingiverse.com/thing:4667691) I used the hex version so I had the mounts to the rail.  If you use the other model it is free standing.
+### Trackball Options
 - 52mm ball: (I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works)
-- Three (3) [3mm ceramic bearing balls](https://www.bcprecision.com/products/3mm-zro2-zirconium-oxide-ceramic-ball-bearings-g5)
-  - I had more success with ball balance with [3.5mm Ceramic bearing balls](https://www.amazon.com/dp/B0B5XH9D26)
-   - I hollowed the holes with a [File kit](https://www.amazon.com/gp/product/B084WTHG7J)
+- 34mm Tackball: (This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
+### Bearings
+- Three (3) [3mm ceramic bearing balls](https://www.amazon.com/gp/product/B07SXJWLHN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)]
+  - Make sure you get more than 3, these are super easy to lose in the floor!
 - [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
+   - You could also use a terminal block with screw mounts to make connectivity easier. [8-pin 2.54mm Pitch PCB Terminal Block](https://www.amazon.com/dp/B098QLRFMF?ref=ppx_yo2ov_dt_b_product_details&th=1)]
+      - Using this will make it so you are unable to attach the shroud to the back to hide the sensor. 
+- 2 [M2.5x15 machine screws](https://www.amazon.com/gp/product/B0756V9LF7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)] This is to secure the sensor and the shroud to the trackball mount.
 - 2 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82) This is to mount the trackball holder to the thumb rail.
 - 2 [M2.5x6 machine screws](https://www.amazon.com/gp/product/B0756W6Z5L) This is to mount the PMW3360 to the trackball holder.
-- 2 [M2.Hex Nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
+- 2 [M2.5 hex nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
+- 2 Optional [M2.5mm square nuts](https://www.etsy.com/listing/239501658/m25-square-rail-nuts?ref=yr_purchases)] Cutouts are provided in the 3MF File. These can are placed behind the screw holes on the PCB to let the shroud lock tighter to the trackball mount.
 
 ### Tools
-- screwdrivers: hex, Philips, and flat heads 
+- screwdrivers: Azeron screwdriver with hex head, philips, and small flat head screwdriver to clean plastic from the 3D prints 
 - precision tweezers
 - soldering iron & solder 
   - wick is optional but helpful if you have soldering issues to undo
