@@ -52,7 +52,7 @@ No.
 
 ### Parts
 - [Azeron Keypad](https://www.azeron.eu/) (Classic, Compact, or Cyborg)
-- [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/)
+- [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/) (Updated link from Melaphor's instructions)
 - [3D printed trackball holder assembly](https://www.thingiverse.com/thing:4667691) I used the hex version so I had the mounts to the rail.  If you use the other model it is free standing.
 ### Trackball Options
 - 52mm ball: (I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works)
