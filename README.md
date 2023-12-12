@@ -95,8 +95,7 @@ No.
 	- MI    
 	- VI 
 
-### Rewire the Azeron 
-The following steps are for the Classic and Compact. I'm still working on the documentation for the Cyborg.
+### Rewire the Azeron (Classic/Classic Compact)
 
 - Remove the Azeron palmrest to reveal the Teensy Board
 
@@ -123,6 +122,27 @@ The following steps are for the Classic and Compact. I'm still working on the do
  
 ![Azeron-movepinkyring](https://user-images.githubusercontent.com/16569424/107109037-e4a65600-680a-11eb-983f-14ca71fb90f0.png)
 
+### Rewire the Azeron (Cyborg/Cyborg Compact)
+
+- Remove the Azeron palmrest to reveal the Teensy Board
+
+
+- Disconnect the pinky and ring finger switches from the Teensy board (**leave the ground [black] wires connected to the grounding block**)    
+   - The left (+5V side of your Teensy++2.0 should have no wires connected at this point)
+- Reconnect the pinky and ring finger switches as follows:
+   	-   Ring finger:
+            - Higher flick/blue wire: F5
+            - High flick/green wire: F4
+	    - Flick/red wire: F3
+	    - Push/orange wire: F2
+	    - Pull/magenta wire: F1
+	-   Pinky finger:
+            - Higher flick/blue wire: E6
+	    - High flick/green wire: F7
+	    - Flick/red wire: B4
+	    - Push/orange wire: B5
+	    - Pull/magenta wire: B6
+            - Side Flick/yellow: F0 
 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
@@ -132,8 +152,9 @@ The following steps are for the Classic and Compact. I'm still working on the do
 	- MO: B2
 	- MI: B3
 	- VI: +5V
-	
-**NOTE:** If you experience disconnects between the mouse and the PMW3360 Optical sensor (mouse stops working) move the ***ground to the block***.
+
+![Final Layout](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/CYBORG%20PINOUT.jpg)
+
 
 ![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
