@@ -1,4 +1,4 @@
-This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with.
+This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with modifying the Azeron Cyborg.
 
 # TRACKzeron: Adding trackball functionality to the [Azeron Keypad](https://www.azeron.eu/)
 
