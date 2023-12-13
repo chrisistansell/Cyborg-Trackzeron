@@ -131,23 +131,49 @@ No.
 
 - Remove the Azeron palmrest to reveal the Teensy Board
 
+![Stock Wiring Diagram](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Stock%20Wiring%20Diagram.png)
 
-- Disconnect the pinky and ring finger switches from the Teensy board (**leave the ground [black] wires connected to the grounding block**)    
-   - The left (+5V side of your Teensy++2.0 should have no wires connected at this point)
+- Disconnect all connections to the Teensy Board
+
+![After Removing Connections](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/After%20Removing%20Connections.png)
+
 - Reconnect the pinky and ring finger switches as follows:
-   	-   Ring finger:
-            - Higher flick/blue wire: F5
-            - High flick/green wire: F4
-	    - Flick/red wire: F3
-	    - Push/orange wire: F2
-	    - Pull/magenta wire: F1
-	-   Pinky finger:
+   	-   Pinky finger:
             - Higher flick/blue wire: E6
-	    - High flick/green wire: F7
+	    - High flick/green wire: E7
 	    - Flick/red wire: B4
 	    - Push/orange wire: B5
 	    - Pull/magenta wire: B6
-            - Side Flick/yellow: F0 
+            - Side Flick/yellow: F0
+	-   Ring finger:
+            - Higher flick/blue wire: F5
+	    - High flick/green wire: F4
+	    - Flick/red wire: F3
+	    - Push/orange wire: F2
+	    - Pull/magenta wire: F1
+	-   Middle finger:
+            - Higher flick/blue wire: D3
+     	    - High flick/green wire: D2
+	    - Flick/red wire: D1
+	    - Push/orange wire: D0
+	    - Pull/magenta wire: B7 
+	-   Index finger:
+            - Higher flick/blue wire: D4
+	    - High flick/green wire: D5
+	    - Flick/red wire: E0
+	    - Push/orange wire: E1
+	    - Pull/magenta wire: C0
+            - Side Flick/yellow: C1
+	-   Thumb:
+            - Thumb side flick/yellow wire: C2
+	-   Profile switch:
+            - Profile 2/magenta wire: C3
+	    - Profile 1/orange wire: C4
+	-   LED:
+            - LED 2/green wire: C5
+	    - LED 1/blue wire: C6
+
+![Reconnecting Towers](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Reconnecting%20Towers.png)
 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
@@ -157,6 +183,9 @@ No.
 	- MO: B2
 	- MI: B3
 	- VI: +5V
+
+![Final Layout](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Final%20Layout.png)
+ 
 
 ![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
