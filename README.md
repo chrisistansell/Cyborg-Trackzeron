@@ -177,19 +177,18 @@ No.
 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
-	- GD: GND    
-	- SS: B0
-	- SC: B1
-	- MO: B2
-	- MI: B3
-	- VI: +5V
+
+![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
+
+   - GD: GND
+   - SS: B0
+   - SC: B1
+   - MO: B2
+   - MI: B3
+   - VI: +5V
 
 ![Final Layout](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Final%20Layout.png)
  
-
-![Azeron-addsensor](https://user-images.githubusercontent.com/16569424/107109075-17e8e500-680b-11eb-8602-91806c507511.png)
-![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
-
 I used my own wiring for the optical sensor to the teensy board.  So I substituted the pink wire for a white wire because of the color spectrum in my wire kit.  I had USB connectivity issues where it would disconnect and reconnect when I used a ground wire from optical sensor to the teensy board.  I ended up moving the ground wire from the optical sensor to the grounding block in the palm rest.  
 
 ![Final Layout](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/CYBORG%20PINOUT.jpg)
