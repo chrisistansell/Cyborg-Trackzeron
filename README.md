@@ -51,7 +51,7 @@ No.
 ## Guide
 
 ### Parts
-- [Azeron Keypad](https://www.azeron.eu/) (Cyborg or Cyborg Compact)
+- [Azeron Keypad](https://www.azeron.eu/) (Cyborg or Cyborg Compact with Teensy++ 2.0 green board)
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/) (Updated link from Melaphor's instructions)
 - [3D printed STL 52mm trackball holder assembly](https://www.thingiverse.com/thing:4667691)
 - [3D printed 3MF 52mm trackball holder assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2052mm/52mm%20Trackball%20Bearing%20Hole%20Shift.3mf) I modified bearing locations to help support the trackball, especially if you are using the new Azeron stands. 
