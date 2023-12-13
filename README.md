@@ -152,6 +152,8 @@ I used a white wire when running new cables since I didn't have any magenta wire
 
 ![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
 
+I used a white wire when running new cables since I didn't have any magenta wire to use.
+
    - GD: GND
    - SS: B0
    - SC: B1
