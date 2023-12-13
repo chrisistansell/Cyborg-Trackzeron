@@ -1,5 +1,5 @@
-This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with modifying the Azeron Cyborg.
-
+This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with modifying the Azeron Cyborg.  Please visit MK's page for instructions on configuring the Classic version of the Azeron controllers.  I do have files scattered in my directory that might be useful on the classic version because that is where my work started.
+ 
 # TRACKzeron: Adding trackball functionality to the [Azeron Keypad](https://www.azeron.eu/)
 
 This repository contains source code and prebuilt firmware files for a modified Azeron keypad.
@@ -51,7 +51,7 @@ No.
 ## Guide
 
 ### Parts
-- [Azeron Keypad](https://www.azeron.eu/) (Classic, Compact, or Cyborg)
+- [Azeron Keypad](https://www.azeron.eu/) (Cyborg or Cyborg Compact)
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/) (Updated link from Melaphor's instructions)
 - [3D printed STL 52mm trackball holder assembly](https://www.thingiverse.com/thing:4667691)
 - [3D printed 3MF 52mm trackball holder assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2052mm/52mm%20Trackball%20Bearing%20Hole%20Shift.3mf) I modified bearing locations to help support the trackball, especially if you are using the new Azeron stands. 
@@ -93,39 +93,11 @@ No.
 	- SC
 	- MO
 	- MI    
-	- VI 
+	- VI
 
-### Rewire the Azeron (Classic/Classic Compact)
+![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
 
-- Remove the Azeron palmrest to reveal the Teensy Board
-
-![Azeron-unchanged](https://user-images.githubusercontent.com/16569424/107108978-5b8f1f00-680a-11eb-86c0-2a26af66000b.png)   
-
-- Disconnect the thumbstick and D-pad from the Teensy board and grounding block.  
-- Remove the thumbstick assembly from the rail.
-
-![Azeron-removethumb](https://user-images.githubusercontent.com/16569424/107108984-706bb280-680a-11eb-9773-adbbb86909cb.png)
-
-- Disconnect the pinky and ring finger switches from the Teensy board (**leave the ground [black] wires connected to the grounding block**)    
-- Reconnect the pinky and ring finger switches as follows:
-   	-   Ring finger:
-	    - High flick/green wire: F7
-	    - Flick/red wire: F6
-	    - Push/orange wire: F5
-	    - Pull/purple wire: F4
-	-   Pinky finger:
-	    - High flick/green wire: F3
-	    - Flick/red wire: F2
-	    - push/orange wire: F1
-	    - pull/purple wire: F0
-
- 
-![Azeron-movepinkyring](https://user-images.githubusercontent.com/16569424/107109037-e4a65600-680a-11eb-983f-14ca71fb90f0.png)
-
-
-
-
-
+I used a white wire when running new cables since I didn't have any magenta wire to use.
 
 ### Rewire the Azeron (Cyborg/Cyborg Compact)
 
