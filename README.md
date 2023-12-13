@@ -117,13 +117,13 @@ I used a white wire when running new cables since I didn't have any magenta wire
 ![After Removing Connections](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/After%20Removing%20Connections.png)
 
 - Reconnect the pinky and ring finger switches as follows:
-	Pinky finger:
-		Higher flick/blue wire: E6
-		High flick/green wire: E7
-		Flick/red wire: B4
-		Push/orange wire: B5
-		Pull/magenta wire: B6
- 		Side Flick/yellow: F0
+	-Pinky finger:
+		-Higher flick/blue wire: E6
+		-High flick/green wire: E7
+		-Flick/red wire: B4
+		-Push/orange wire: B5
+		-Pull/magenta wire: B6
+ 		-Side Flick/yellow: F0
 	- Ring finger:
  		- Higher flick/blue wire: F5
    		- High flick/green wire: F4
