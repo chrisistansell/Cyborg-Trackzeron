@@ -117,40 +117,40 @@ I used a white wire when running new cables since I didn't have any magenta wire
 ![After Removing Connections](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/After%20Removing%20Connections.png)
 
 - Reconnect the pinky and ring finger switches as follows:
-   	-   Pinky finger:
-            - Higher flick/blue wire: E6
-	    - High flick/green wire: E7
-	    - Flick/red wire: B4
-	    - Push/orange wire: B5
-	    - Pull/magenta wire: B6
-            - Side Flick/yellow: F0
-	-   Ring finger:
-            - Higher flick/blue wire: F5
-	    - High flick/green wire: F4
-	    - Flick/red wire: F3
-	    - Push/orange wire: F2
-	    - Pull/magenta wire: F1
+	- Pinky finger:
+ 		- Higher flick/blue wire: E6
+   		- High flick/green wire: E7
+     		- Flick/red wire: B4
+       		- Push/orange wire: B5
+         	- Pull/magenta wire: B6
+          	- Side Flick/yellow: F0
+	- Ring finger:
+ 		- Higher flick/blue wire: F5
+   		- High flick/green wire: F4
+     		- Flick/red wire: F3
+		- Push/orange wire: F2
+  		- Pull/magenta wire: F1
 	-   Middle finger:
-            - Higher flick/blue wire: D3
-     	    - High flick/green wire: D2
-	    - Flick/red wire: D1
-	    - Push/orange wire: D0
-	    - Pull/magenta wire: B7 
+ 		- Higher flick/blue wire: D3
+   		- High flick/green wire: D2
+     		- Flick/red wire: D1
+       		- Push/orange wire: D0
+         	- Pull/magenta wire: B7 
 	-   Index finger:
-            - Higher flick/blue wire: D4
-	    - High flick/green wire: D5
-	    - Flick/red wire: E0
-	    - Push/orange wire: E1
-	    - Pull/magenta wire: C0
-            - Side Flick/yellow: C1
+ 		- Higher flick/blue wire: D4
+   		- High flick/green wire: D5
+     		- Flick/red wire: E0
+       		- Push/orange wire: E1
+         	- Pull/magenta wire: C0
+          	- Side Flick/yellow: C1
 	-   Thumb:
-            - Thumb side flick/yellow wire: C2
+ 		- Thumb side flick/yellow wire: C2
 	-   Profile switch:
-            - Profile 2/magenta wire: C3
-	    - Profile 1/orange wire: C4
+ 		- Profile 2/magenta wire: C3
+   		- Profile 1/orange wire: C4
 	-   LED:
-            - LED 2/green wire: C5
-	    - LED 1/blue wire: C6
+ 		- LED 2/green wire: C5
+  		- LED 1/blue wire: C6
 
 ![Reconnecting Towers](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Reconnecting%20Towers.png)
 
