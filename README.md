@@ -127,7 +127,7 @@ I used a white wire when running new cables since I didn't have any magenta wire
 	- Ring finger:
  		- Higher flick/blue wire: F5
    		- High flick/green wire: F4
-     		- Flick/red wire: F3
+		- Flick/red wire: F3
 		- Push/orange wire: F2
   		- Pull/magenta wire: F1
 	-   Middle finger:
