@@ -138,11 +138,11 @@ I used a white wire when running new cables since I didn't have any magenta wire
 		- Pull/magenta wire: B7 
 	- Index finger:
  		- Higher flick/blue wire: D4
-   		- High flick/green wire: D5
-     		- Flick/red wire: E0
-       		- Push/orange wire: E1
-         	- Pull/magenta wire: C0
-          	- Side Flick/yellow: C1
+		- High flick/green wire: D5
+		- Flick/red wire: E0
+		- Push/orange wire: E1
+		- Pull/magenta wire: C0
+		- Side Flick/yellow: C1
 	- Thumb:
  		- Thumb side flick/yellow wire: C2
 	- Profile switch:
