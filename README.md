@@ -130,25 +130,25 @@ I used a white wire when running new cables since I didn't have any magenta wire
 		- Flick/red wire: F3
 		- Push/orange wire: F2
   		- Pull/magenta wire: F1
-	-   Middle finger:
- 		- Higher flick/blue wire: D3
-   		- High flick/green wire: D2
-     		- Flick/red wire: D1
-       		- Push/orange wire: D0
-         	- Pull/magenta wire: B7 
-	-   Index finger:
+	- Middle finger:
+		- Higher flick/blue wire: D3
+		- High flick/green wire: D2
+		- Flick/red wire: D1
+		- Push/orange wire: D0
+		- Pull/magenta wire: B7 
+	- Index finger:
  		- Higher flick/blue wire: D4
    		- High flick/green wire: D5
      		- Flick/red wire: E0
        		- Push/orange wire: E1
          	- Pull/magenta wire: C0
           	- Side Flick/yellow: C1
-	-   Thumb:
+	- Thumb:
  		- Thumb side flick/yellow wire: C2
-	-   Profile switch:
+	- Profile switch:
  		- Profile 2/magenta wire: C3
    		- Profile 1/orange wire: C4
-	-   LED:
+	- LED:
  		- LED 2/green wire: C5
   		- LED 1/blue wire: C6
 
