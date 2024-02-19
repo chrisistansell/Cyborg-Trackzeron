@@ -17,6 +17,8 @@
  */
 
 #include "trackzeron.h"
+#include "mousekey.h"
+#include <stdint.h>
 
 
 #ifndef PLOOPY_DPI_OPTIONS
@@ -168,14 +170,21 @@ bool has_report_changed (report_mouse_t first, report_mouse_t second) {
         (!first.y && first.y == second.y));
 }
 
-void pointing_device_task(void) {
+bool pointing_device_task(void) {
     report_mouse_t mouse_report = pointing_device_get_report();
     process_mouse(&mouse_report);
 
     pointing_device_set_report(mouse_report);
+
+    // Check if the mouse report has changed
     if (has_report_changed(mouse_report, pointing_device_get_report())) {
         pointing_device_send();
     }
+
+    // Additional processing...
+
+    // Return a boolean value indicating success or failure
+    return true; // or false, depending on your logic
 }
 
 void eeconfig_init_kb(void) {
