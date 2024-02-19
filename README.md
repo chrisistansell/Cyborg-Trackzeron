@@ -146,14 +146,12 @@ I used a white wire when running new cables since I didn't have any magenta wire
 	- Thumb:
  		- Thumb side flick/yellow wire: C2
 	- Profile switch:
- 		- Profile 2/magenta wire: C3
-   		- Profile 1/orange wire: C4
+ 		- Profile 2/magenta wire: F6
+   		- Profile 1/orange wire: F7
 	- LED:
  		- LED 2/green wire: C5
   		- LED 1/blue wire: C6
-
-![Reconnecting Towers](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Reconnecting%20Towers.png)
-
+    - 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
 
@@ -169,7 +167,7 @@ I used a white wire when running new cables since I didn't have any magenta wire
    - VI: +5V
 
 ![Final Layout](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Final%20Layout.png)
- 
+
 I used my own wiring for the optical sensor to the teensy board.  So I substituted the pink wire for a white wire because of the color spectrum in my wire kit.  I had USB connectivity issues where it would disconnect and reconnect when I used a ground wire from optical sensor to the teensy board.  I ended up moving the ground wire from the optical sensor to the grounding block in the palm rest.  
 
 - Attach the sensor to the trackball assembly. 
