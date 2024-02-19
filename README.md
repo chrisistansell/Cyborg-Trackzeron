@@ -73,6 +73,7 @@ No.
       - Using this will make it so you are unable to attach the shroud to the back to hide the sensor.
 
 ### Hardware 
+- 1 [M2.5x25 machine screw](https://www.amazon.com/gp/product/B0CG1SLFNG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) (Optional-Recommended if printing the Shroud) I used this to hold the bottom together when placeing the shroud on.
 - 2 [M2.5x15 machine screws](https://www.amazon.com/gp/product/B0756V9LF7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) This is to secure the sensor and the shroud to the trackball mount.
 - 2 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82) This is to mount the trackball holder to the thumb rail.
 - 2 [M2.5x6 machine screws](https://www.amazon.com/gp/product/B0756W6Z5L) This is to mount the PMW3360 to the trackball holder.
