@@ -161,7 +161,7 @@ I used a white wire when running new cables since I didn't have any magenta wire
 
 I used a white wire when running new cables since I didn't have any magenta wire to use.
 
-   - GD: GND
+   - GD: GND (Save yourself some headaches and just run this to the Azeron Ground Block)
    - SS: B0
    - SC: B1
    - MO: B2
