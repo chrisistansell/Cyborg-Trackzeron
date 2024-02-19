@@ -97,7 +97,7 @@ No.
 - Push the ceramic ball bearings into the trackball assembly.   
 - Strip and tin 7-9 inches of 28 AWG hookup wire OR desolder the wires attached to the thumbstick and D-pad. Need 6 wires.
 - Solder wires to the PMW3360 sensor pins (The other two are not used):
-	- GD
+	- GD (Save yourself some headaches and just run this to the Azeron Ground Block)
 	- SS    
 	- SC
 	- MO
