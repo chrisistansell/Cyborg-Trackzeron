@@ -20,8 +20,6 @@
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT( 
-      
     [0] = LAYOUT( /* Base */
 //         index    middle    ring       pinky         
            KC_WH_U, KC_PGUP,  KC_EQL,    KC_PAST, _______, _______,
