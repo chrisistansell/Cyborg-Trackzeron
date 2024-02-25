@@ -24,32 +24,33 @@
 //#define MANUFACTURER MK
 //#define PRODUCT      TRACKzeron
 
-/* key matrix size */
+/* ke22y matrix size */
 #define MATRIX_ROWS 5
-#define MATRIX_COLS 5
+#define MATRIX_COLS 7
 
  // Pinout Map - Teensy 2.0++
-     //  Side Index  Index      Middle      Ring      Pinky
+     //               Index      Middle      Ring      Pinky
      // ,-----------------------------------------------------------------.
-     // |          | C0/10  | |  D3/3   |                                 |       Profile    LED
-     // |-----------------------------------------------------------------|     ,-------------------.
-     // |          |  E1/9  | |  D2/2   | | F7/45  | | F3/41  |           |     |  C3/16  | C5/C18  |  
+     // |          |  C0/13 | |  D3/6   | | F5/38  | | E6/30  |           |       Profile    LED
+     // |------------------ ----------------------------------------------|     ,-------------------.
+     // |          |  E1/12 | |  D2/5   | | F4/37  | | E7/29  |           |     |  F6/39  | C5/C18  |  
      // |-----------------------------------------------------------------|     |-------------------|
-     // |          |  E0/8  | |  D1/1   | | F6/44  | | F2/40  |           |     |  C4/17  | C6/C19  |
+     // |  F0/33   |  E0/11 | |  D1/4   | | F3/36  | | B4/24  |           |     |  F7/40  | C6/C19  |
      // |-----------------------------------------------------------------|     `-------------------'
-     // |  C1/11 | |  D5/5  | |  D0/0   | | F5/43  | | F1/39  |           |  
+     // |  C1/14 | |  D5/8  | |  D0/3   | | F2/35  | | B5/23  |           |  
      // |-----------------------------------------------------------------|
-     // |  C2/12 | |  D4/4  | |  B7/27  | | F4/42  | | F0/38  |           |
+     // |  C2/15 | |  D4/7  | |  B7/2   | | F1/34  | | B6/22  |           |
      // `-----------------------------------------------------------------'
-     //   Thumb ^
+     //   ^ Pinky, Index, Thumb
 
 #define DIRECT_PINS { \
-  { NO_PIN, C0, D3, NO_PIN, NO_PIN  }, \
-  { NO_PIN, E1, D2, F7,     F3      }, \
-  { NO_PIN, E0, D1, F6,     F2      }, \
-  {   C1,   D5, D0, F5,     F1      }, \
-  {   C2,   D4, B7, F4,     F0     } \
+  { NO_PIN, C0, D3, F5, E6, C5, C6  }, \
+  { NO_PIN, E1, D2, F4, E7, F6, F7  }, \
+  {   F0,   E0, D1, F3, B4, NO_PIN, NO_PIN }, \
+  {   C1,   D5, D0, F2, B5, NO_PIN, NO_PIN }, \
+  {   C2,   D4, B7, F1, B6, NO_PIN, NO_PIN } \
 }
+
 
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
@@ -69,4 +70,3 @@
    a polling rate as possible. */
 #define USB_POLLING_INTERVAL_MS 1
 #define USB_MAX_POWER_CONSUMPTION 100
-
