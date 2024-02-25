@@ -21,7 +21,7 @@
 //#define VENDOR_ID    0x16c0
 //#define PRODUCT_ID   0x0487
 //#define DEVICE_VER   0x0001
-//#define MANUFACTURER MK
+//#define MANUFACTURER Coaleyed
 //#define PRODUCT      TRACKzeron
 
 /* ke22y matrix size */
