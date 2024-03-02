@@ -64,6 +64,7 @@ No.
 
 ### Bearings
 - Three (3) [2.5mm ceramic bearing balls](https://www.amazon.com/gp/product/B07SXJWLHN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+- If working with version 3 of the trackball holder you will need to use 3mm bearings.  These fit with slight pressure.  Make sure not to apply to much!  There should be just a little bit sticking out for the trackball to rest on ~ 1mm. 
   - Make sure you get more than 3, these are super easy to lose in the floor!
   - You might want to purchase some 2mm and 3mm bearings in case this runs over/undersized.
 
