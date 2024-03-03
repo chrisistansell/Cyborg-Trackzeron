@@ -154,6 +154,11 @@ I used a white wire when running new cables since I didn't have any magenta wire
 	- LED:
  		- LED 2/green wire: C5
   		- LED 1/blue wire: C6
+    	- GND:
+     		- GND 2(Left side - Top View)/Azeron Ground Block
+       		- GND 1(Right side - Top View) - Twist Mouse GND and this GND together/Azeron Ground Block
+         		- Having this is important otherwise you might experience computer sleep issues     
+        
 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
@@ -162,7 +167,7 @@ I used a white wire when running new cables since I didn't have any magenta wire
 
 I used a white wire when running new cables since I didn't have any magenta wire to use.
 
-   - GD: GND (Save yourself some headaches and just run this to the Azeron Ground Block)
+   - GD: GND (Twist this with GND 1 and place in Azeron Ground Block)
    - SS: B0
    - SC: B1
    - MO: B2
