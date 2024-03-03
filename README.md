@@ -156,7 +156,7 @@ I used a white wire when running new cables since I didn't have any magenta wire
   		- LED 1/blue wire: C6
     	- GND:
      		- GND 2(Left side - Top View)/Azeron Ground Block
-       		- GND 1(Right side - Top View) - Twist Mouse GND and this GND together/Azeron Ground Block
+       		- GND 1(Right side - Top View) - Twist Mouse GD and this GND together/Azeron Ground Block
          		- Having this is important otherwise you might experience computer sleep issues     
         
 
