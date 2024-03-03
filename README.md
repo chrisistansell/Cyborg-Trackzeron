@@ -1,5 +1,7 @@
 This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with modifying the Azeron Cyborg.  Please visit MK's page for instructions on configuring the Classic version of the Azeron controllers.  I do have files scattered in my directory that might be useful on the classic version because that is where my work started.
- 
+
+Please note that due to angles of the sensor in the design, you will need to use software such as rawaccel or your on scripts to set the rotation between 20-25%.  Otherwise you will get a down pitch to the left on mouse movement.
+
 # TRACKzeron: Adding trackball functionality to the [Azeron Keypad](https://www.azeron.eu/)
 
 This repository contains source code and prebuilt firmware files for a modified Azeron keypad.
