@@ -18,6 +18,7 @@
  */
 #include QMK_KEYBOARD_H
 #include "config.h"  // Include your configuration file
+#include "quantum.h"
 
 bool suspended = false; // Keep track of the system's suspend state
 
@@ -95,12 +96,24 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 // In dip_switch_update_mask_user function
 bool dip_switch_update_mask_user(uint32_t state) { 
-    if (state & (1UL << 0)) {
+    // Read the state of the dip switch
+    if (readPin(F7)) {
+        // Dip switch is pressed (Layer 3)
         layer_on(PROFILE_2);
-    } else {
-        layer_off(PROFILE_2);
-        layer_on(PROFILE_1); // Activate PROFILE_1 when dip switch is released
 
+        // Turn off LED2 (C5)
+        writePinLow(C5);
+    } else {
+        // Dip switch is not pressed (Layer 1), activate PROFILE_1
+        layer_off(PROFILE_2);
+        layer_on(PROFILE_1);
+
+        // Turn on both LEDs
+        writePinHigh(C5);
     }
+
+    // Keep LED1 (C6) on all the time
+    writePinHigh(C6);
+
     return true;
-}   
+}

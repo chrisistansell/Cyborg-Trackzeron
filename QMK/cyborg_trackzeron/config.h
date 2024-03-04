@@ -29,6 +29,8 @@
 
 // DIP switch configuration
 #define DIP_SWITCH_MATRIX_GRID { {1,6} } 
+#define DIP_SWITCH_COUNT 1
+#define DIP_SWITCH_1 F7
 
 /* Much more so than a keyboard, speed matters for a mouse. So we'll go for as high
    a polling rate as possible. */
