@@ -1,4 +1,4 @@
-This Readme is coutesy of MK's main Trackzeron GitHub project. I've made modifications to reflect the work I have done and had success with modifying the Azeron Cyborg.  Please visit MK's page for instructions on configuring the Classic version of the Azeron controllers.  I do have files scattered in my directory that might be useful on the classic version because that is where my work started.
+This Readme is coutesy of MK's main Trackzeron GitHub project.  A special thanks to his inspiration.  This will forever be linked to his OG mod of the Azeron Classic as a fork.
 
 Please note that due to angles of the sensor in the design, you will need to use software such as rawaccel or your on scripts to set the rotation between 20-25%.  Otherwise you will get a down pitch to the left on mouse movement.
 
@@ -16,6 +16,8 @@ Side profile with shroud covering optical sensor.
 
 **This does not work with the Cyborg/Cyborg compact models.** It is for Azeron devices that use the Teensy++ 2.0 (green) mainboard. The Teensy++ 2.0 was discontinued in 2021, and Azeron started producing models with their proprietary ARM/STM32-based (black) mainboard in late-2022. Before making this modification make sure you have ordered a board with a Teensy++ 2.0 PCB.  This is not directly available on their website and you will have to special request it.  A Teensy++ 2.0 board can be purchased secondary market, you will probably want to purchase a terminal block with screw mounts to make it more connection friendly.
 
+Additional testing will be performed on STM and RP2040 over the next few months.  I'll keep you guys updated.  If I can migrate to STM then we could potentially get 1000Hz polling rates.
+
 ## Notes
 
 -   This mod has no official Azeron support.
@@ -29,46 +31,41 @@ Side profile with shroud covering optical sensor.
 Trackball + Azeron = TRACKzeron.
 
 ### Will this work on my device with a black mainboard?
-The firmware will not work. The new black mainboards have a different chip. The firmware was not designed for it. I cannot confirm whether the new mainboard can be rewired to accommodate the sensor. 
-
-### Will this work on the Azeron Cyborg or Cyborg Compact model?
-I am currently working on trying to move this to a Cyborg model using a Teensy 2.0++ board being specially installed for testing.  Will update this in the future.  ETA is to have something together by the middle of July.
+The firmware will not work. The new black mainboards have a different chip. The firmware was not designed for it. I cannot confirm whether the new mainboard can be rewired to accommodate the sensor.
+-- Update 3.4.24 I'm working with Azeron to get the Azeron black microcontroller to see if I can push code to it.
 
 ### How did you add the trackball?
 See the [guide](#guide).
 
 ### How does this work in the Azeron Software?
-***This mod is not compatible with the official Azeron Software.*** You will need to use a different software to set your keybinds. I have used reWASD and JoyToKey.
+***This mod is not compatible with the official Azeron Software.*** You will need to use a different software to set your keybinds.  I have added support for VIA using the via.json file in the QMK folder.  VIAL is also an option, the files you need are all in keymap.c > VIAL.
+
+You can optionally hard code your own keymaps and then create your own hex file.  This can be done by manipulating the the KC_xx entries found in the keymap.c folder.
 
 ### How do you use the Azeron Software with two keypads at once?
-Using two keypads simultaneously isn’t officially supported by the Azeron software (yet? seems like they're working on that), even if they’re both stock firmware/not modified, but a workaround for two unmodified keypads is to plug in one keypad, set the keybinds, then unplug. Plug in the second keypad and set those keybinds. You won't be able to change the keybinds while they're both plugged in, but they should work in-game.
+Since there is no thumbstick on this controller, the two together function like a keyboard and mouse.  You should be able to use both controllers without issues in games.
 
 ### Do you have a video where you’re playing with both keypads together?
-Yes; there's a [YouTube clip](https://youtu.be/LT7abxc7oYk) of MK playing Mass Effect Andromeda,
-and some of him playing Borderlands on [Twitch channel](https://twitch.tv/allphobic13).
+Yes; there's a [YouTube clip](https://youtu.be/ogBYqxuF61s)  Sorry at the time I filmed this it was being done inverted by my camera.  I'll try to get an update to the video soon.
 
 ### Can you make me one?
-No.
+No.  But I will gladly assist you in your build.  
 
 ## Guide
 
 ### Parts
 - [Azeron Keypad](https://www.azeron.eu/) (Cyborg or Cyborg Compact with Teensy++ 2.0 green board)
-- Teensy++ 2.0 Green Board AT90USB1286
-- [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/) (Updated link from Melaphor's instructions)
-- [3D printed STL 52mm trackball holder assembly](https://www.thingiverse.com/thing:4667691)
-- [3D printed 3MF 52mm trackball holder assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2052mm/52mm%20Trackball%20Bearing%20Hole%20Shift.3mf) I modified bearing locations to help support the trackball, especially if you are using the new Azeron stands. 
-- [3D printed 3MF 34mm trackball holder and shroud assembly](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/3D%20Print%20Files/3MF%20Files%20-%2034mm/42OD-36IDmm%20Trackzeron%20Clip%20and%20Shroud.3mf)
+- Teensy++ 2.0 Green Board AT90USB1286 - You might be able to find these on Aliexpress.  They will not have the terminal blocks so you will need to buy those seperately and will have to solder them on.
+	- I plan to use 2 of these to test with since I can't find a 20 pin version: [Screw Terminal Block Connectors](https://www.amazon.com/dp/B0BLHJY5NT?ref=ppx_yo2ov_dt_b_product_details&th=1)
+- [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/)
+- [3D printed 3MF 34mm trackball snap fit v3 holder](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/tree/main/3D%20Print%20Files/STL%20Files%20-%2034mm%20V3%20Snap%20Fit)
 
 ### Trackball Options
-- 52mm ball: I use the ball from an [Elecom Huge](https://elecomus.com/web/product/3271/) trackball, but I have verified that a 2 <sup>1</sup>/<sub>16</sub> inch[52.5mm] [snooker/billiard ball](https://www.johnparrottsports.com/snooker/snooker-balls/#category175) works
 - 34mm Tackball: This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
+	- I recently purchased a Protarc EM04 Wired Trackball and robbed it of it's 34mm purple trackball.
 
 ### Bearings
-- Three (3) [2.5mm ceramic bearing balls](https://www.amazon.com/gp/product/B07SXJWLHN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
-- If working with version 3 of the trackball holder you will need to use 3mm bearings.  These fit with slight pressure.  Make sure not to apply to much!  There should be just a little bit sticking out for the trackball to rest on ~ 1mm. 
-  - Make sure you get more than 3, these are super easy to lose in the floor!
-  - You might want to purchase some 2mm and 3mm bearings in case this runs over/undersized.
+- Three (3) [3mm ceramic bearing balls](https://www.amazon.com/dp/B07SXJWLHN?smid=A1THAZDOWP300U&ref_=chk_typ_imgToDp&th=1)
 
 ### Cabling (Optional if desoldering)
 - [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
@@ -76,18 +73,17 @@ No.
       - Using this will make it so you are unable to attach the shroud to the back to hide the sensor.
 
 ### Hardware 
-- 1 [M2.5x25 machine screw](https://www.amazon.com/gp/product/B0CG1SLFNG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) (Optional-Recommended if printing the Shroud) I used this to hold the bottom together when placeing the shroud on.
-- 2 [M2.5x15 machine screws](https://www.amazon.com/gp/product/B0756V9LF7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) This is to secure the sensor and the shroud to the trackball mount.
-- 2 [M2.5x10 machine screws](https://store.azeron.eu/index.php?route=product/product&path=62&product_id=82) This is to mount the trackball holder to the thumb rail.
-- 2 [M2.5x6 machine screws](https://www.amazon.com/gp/product/B0756W6Z5L) This is to mount the PMW3360 to the trackball holder.
-- 2 [M2.5 hex nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
-- 2 Optional [M2.5mm square nuts](https://www.etsy.com/listing/239501658/m25-square-rail-nuts?ref=yr_purchases) Cutouts are provided in the 3MF File. These can are placed behind the screw holes on the trackball optical sensor mounting area to provide firm connectivity of the shroud and the PCB to the trackball mount.  This will hold without adding these to the screw downs but if you take the shroud off a few times the M2.5 screws will start to lose their grip.
+- 1 [M2.5 280pc Button Head Hex Screws](https://www.amazon.com/gp/product/B09CPDVYB7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+	- To keep things simple, I'd suggest this set.  A lot cheaper than buying individual stuff and will have everything you need to do this project.
+- 2 [M2.5 thin hex nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
+	- I generally try to get everything from one place, but this was the only place I could find thin versions of the hex nuts. 	
 
 ### Tools
 - screwdrivers: Azeron screwdriver with hex head, philips, and small flat head screwdriver to clean plastic from the 3D prints 
 - precision tweezers
 - soldering iron & solder 
   - wick is optional but helpful if you have soldering issues to undo
+  - I also suggest a magnifying glass lamp and a heat proof working surface
 - wire friendly scissors (i use Klein)
 - wire stripper
 - wire cutters
@@ -182,11 +178,12 @@ I used a white wire when running new cables since I didn't have any magenta wire
 
 
  
-I used my own wiring for the optical sensor to the teensy board.  So I substituted the pink wire for a white wire because of the color spectrum in my wire kit.  I had USB connectivity issues where it would disconnect and reconnect when I used a ground wire from optical sensor to the teensy board.  I ended up moving the ground wire from the optical sensor to the grounding block in the palm rest.  
+I used my own wiring for the optical sensor to the teensy board.  So I substituted the purple (magenta/pink) wire for a white wire because of the color spectrum in my wire kit.  I had USB connectivity issues where it would disconnect and reconnect when I used a ground wire from optical sensor to the teensy board.  I ended up moving the ground wire from the optical sensor to the grounding block in the palm rest.  
 
 - Attach the sensor to the trackball assembly. 
 - Fit the trackball assembly to the Azeron thumb rail.   
 - Reattach the palmrest
 - Place ball in cup.
 - Load firmware HEX file using the QMK Toolbox by pointing to the trackzeron_default.hex file then pressing the reset button on the underside of the controller, followed by clicking the flash button on the QMK toolbox application.
+- Take a look at keymaps in VIA, make any changes that you would like.  Take the time to make a second profile tied to the profile switch on the palm rest of your Cyborg.  FN key activates an additional layer on your keypad if you would like to map that somewhere in your layout on your controllers for additional controls.
 - Enjoy trackball keypad
