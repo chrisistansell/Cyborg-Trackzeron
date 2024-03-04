@@ -185,5 +185,5 @@ I used my own wiring for the optical sensor to the teensy board.  So I substitut
 - Reattach the palmrest
 - Place ball in cup.
 - Load firmware HEX file using the QMK Toolbox by pointing to the trackzeron_default.hex file then pressing the reset button on the underside of the controller, followed by clicking the flash button on the QMK toolbox application.
-- Take a look at keymaps in VIA, make any changes that you would like.  Take the time to make a second profile tied to the profile switch on the palm rest of your Cyborg.  FN key activates an additional layer on your keypad if you would like to map that somewhere in your layout on your controllers for additional controls.
+- Take a look at keymaps in VIA, make any changes that you would like using the via.json file in the root directry of QMK > Cyborg Trackzeron.  Take the time to make a second profile tied to the profile switch on the palm rest of your Cyborg.  FN key activates an additional layer on your keypad if you would like to map that somewhere in your layout on your controllers for additional controls.
 - Enjoy trackball keypad
