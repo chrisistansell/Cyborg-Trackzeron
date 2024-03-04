@@ -20,13 +20,22 @@
 #include "config.h"  // Include your configuration file
 #include "quantum.h"
 
+// Suspend Settings
 bool suspended = false; // Keep track of the system's suspend state
+
+// Dip Switch Mapping
+#define DIP_SWITCH_LAYER_MAP_SIZE 2
 
 // Layer names
 #define PROFILE_1             0
 #define SECOND_LAYER_PROFILE_1 1
 #define PROFILE_2             2
 #define SECOND_LAYER_PROFILE_2 3
+
+const uint8_t dip_switch_layer_map[DIP_SWITCH_LAYER_MAP_SIZE] = {
+    [0] = PROFILE_1, // Layer 1
+    [1] = PROFILE_2  // Layer 3
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {         
     [PROFILE_1] = {
@@ -94,28 +103,24 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
 }
 
-bool dip_switch_update_user(uint8_t index, bool active) { 
-    switch (index) {
-        case 0:
-            // Dip switch 1 actions
-            if (active) {
-                // Dip switch 1 is ON (Layer 3)
-                layer_on(PROFILE_2);
-                // Turn off LED2 (C5) when dip switch is pressed
-                writePinLow(C5);
-            } else {
-                // Dip switch 1 is OFF (Layer 1), activate PROFILE_1
-                layer_off(PROFILE_2);
-                layer_on(PROFILE_1);
-                // Turn on both LEDs
-                writePinHigh(C5);
-            }
-            break;
-        // Add more cases for other dip switches if needed
+bool dip_switch_update_user(uint8_t index, bool active) {
+    if (index < DIP_SWITCH_LAYER_MAP_SIZE) {
+        // Get the corresponding layer from the map
+        uint8_t target_layer = dip_switch_layer_map[index];
 
-        default:
-            // Default case
-            break;
+        if (active) {
+            // Dip switch is ON, activate the target layer
+            layer_on(target_layer);
+            // Turn off LED2 (C5) when dip switch is pressed
+            writePinLow(C5);
+        } else {
+            // Dip switch is OFF, deactivate the target layer
+            layer_off(target_layer);
+            // Turn on both LEDs
+            writePinHigh(C5);
+        }
+        return true; // Return a value here
     }
-    return true;
+    // Handle the case where index is out of bounds
+    return false; // Return a value here
 }
