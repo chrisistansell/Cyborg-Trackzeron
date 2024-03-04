@@ -176,7 +176,7 @@ I used a white wire when running new cables since I didn't have any magenta wire
    - MI: B3
    - VI: +5V
 
-![[Final Wiring]([https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Final%20Layout.png)](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Final%20Wiring.png])
+![[Final Wiring]([Pinouts/Final Wiring.png])
  
 I used my own wiring for the optical sensor to the teensy board.  So I substituted the pink wire for a white wire because of the color spectrum in my wire kit.  I had USB connectivity issues where it would disconnect and reconnect when I used a ground wire from optical sensor to the teensy board.  I ended up moving the ground wire from the optical sensor to the grounding block in the palm rest.  
 
