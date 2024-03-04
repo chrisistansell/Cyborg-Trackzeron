@@ -41,4 +41,3 @@ enum ploopy_keycodes {
     DPI_CONFIG = SAFE_RANGE,
     PLOOPY_SAFE_RANGE,
 };
-

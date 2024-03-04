@@ -12,6 +12,7 @@ SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 UNICODE_ENABLE = no         # Unicode
+DIP_SWITCH_ENABLE = yes
 COMMAND_ENABLE = no			# Enable or disable the command feature
 CONSOLE_ENABLE = yes        # Enable or disable the console feature
 NKRO_ENABLE = yes           # Enable or disable NKRO (N-Key Rollover) feature

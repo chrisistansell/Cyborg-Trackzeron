@@ -24,6 +24,12 @@
 /* PMW3360 Settings */
 #define POINTING_DEVICE_CS_PIN B0
 
+/* Wake from sleep settings*/
+#define KC_WAKE_UP_FROM_SUSPEND KC_BTN1 // Replace KC_CUSTOM with a unique keycode
+
+// DIP switch configuration
+#define DIP_SWITCH_MATRIX_GRID { {1,6} } 
+
 /* Much more so than a keyboard, speed matters for a mouse. So we'll go for as high
    a polling rate as possible. */
 #define USB_POLLING_INTERVAL_MS 1
