@@ -65,8 +65,8 @@ No.  But I will gladly assist you in your build.
 	- I recently purchased a Protarc EM04 Wired Trackball and robbed it of it's 34mm purple trackball.
 
 ### Bearings
-- Three (3) [3mm ceramic bearing balls](https://www.amazon.com/dp/B07SXJWLHN?smid=A1THAZDOWP300U&ref_=chk_typ_imgToDp&th=1)
-	- I've recently upgraded mine on 03.11.24 to [3.5mm ceramic bearing balls](https://a.co/d/fikWqXD)
+- I've recently upgraded mine on 03.11.24 to three (3) [3.5mm ceramic bearing balls](https://a.co/d/fikWqXD)
+	- For older STLs use three (3) [3mm ceramic bearing balls](https://www.amazon.com/dp/B07SXJWLHN?smid=A1THAZDOWP300U&ref_=chk_typ_imgToDp&th=1)
 
 ### Cabling (Optional if desoldering)
 - [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
