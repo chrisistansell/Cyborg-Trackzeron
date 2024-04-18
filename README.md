@@ -12,7 +12,7 @@ Side profile design.
 
 ![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Assembled%20Images/image4.jpeg)
 
-Anled profile.
+Angled profile.
 
 ![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Assembled%20Images/image3.jpeg)
 
