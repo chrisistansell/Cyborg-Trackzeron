@@ -56,7 +56,7 @@ No.  But I will gladly assist you in your build.
 ### Parts
 - [Azeron Keypad](https://www.azeron.eu/) (Cyborg or Cyborg Compact with Teensy++ 2.0 green board)
 - Teensy++ 2.0 Green Board AT90USB1286 - You might be able to find these on Aliexpress.  They will not have the terminal blocks so you will need to buy those seperately and will have to solder them on.
-	- I plan to use 2 of these to test with since I can't find a 20 pin version: [Screw Terminal Block Connectors](https://www.amazon.com/dp/B0BLHJY5NT?ref=ppx_yo2ov_dt_b_product_details&th=1)
+	- I plan to use 2 of these to test with since I can't find a 20 pin version: [Screw Terminal Block Connectors](https://a.co/d/1D0JK94)
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/)
 - [3D printed STL 34mm trackball snap fit v3 holder](https://github.com/chrisistansell/Cyborg-Trackzeron/tree/main/3D%20Print%20Files/34mm%20Lava%20Lamp%20Design%20STL)
 
