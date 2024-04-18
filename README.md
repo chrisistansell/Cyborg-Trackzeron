@@ -6,11 +6,15 @@ Please note that due to angles of the sensor in the design, you will need to use
 
 This repository contains source code and prebuilt firmware files for a modified Azeron keypad.
 
-![](https://github.com/chrisistansell/trackzeron/blob/main/34mm%20Overview.jpeg)
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Assembled%20Images/image5.jpeg)
 
-Side profile with shroud covering optical sensor.
+Side profile design.
 
-![](https://github.com/chrisistansell/trackzeron/blob/main/34mm%20Holder.jpeg)
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Assembled%20Images/image4.jpeg)
+
+Anled profile.
+
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Assembled%20Images/image3.jpeg)
 
 ## Only for Classic, Compact, and Cyborg models with TEENSY++ 2.0 mainboards
 
