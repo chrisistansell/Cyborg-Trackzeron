@@ -190,6 +190,8 @@ I used a white wire when running new cables since I didn't have any magenta wire
  
 I used my own wiring for the optical sensor to the teensy board.  So I substituted the purple (magenta/pink) wire for a white wire because of the color spectrum in my wire kit.  I had USB connectivity issues where it would disconnect and reconnect when I used a ground wire from optical sensor to the teensy board.  I ended up moving the ground wire from the optical sensor to the grounding block in the palm rest.  
 
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Assembled%20Images/image2.jpeg)
+
 - Using firm force (can be assisted with outside pressure i.e., small channel-locks) push (3) 3mm bearings into slots.
 - Attach the sensor to the trackball assembly. 
 - Fit the trackball assembly to the Azeron thumb rail.   
