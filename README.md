@@ -86,7 +86,7 @@ No.  But I will gladly assist you in your build.
 - Read above first! 2 [M2.5 thin hex nuts](https://www.mcmaster.com/products/hex-nuts/low-strength-steel-thin-hex-nuts-8/}) For the updated model.
 	- I generally try to get everything from one place, but this was the only place I could find thin versions of the hex nuts.
 - Optional [M2.5 square nuts](https://www.mcmaster.com/products/square-nuts/thread-size~m2-5/)
-	- You don't need these, but could come in handy for projects you need to use M2.5 screws for in your customizations. 
+	- You don't need these, but could come in handy for projects you need to use M2.5 screws in customizations. 
 
 ### Tools
 - screwdrivers: Azeron screwdriver with hex head, philips, and small flat head screwdriver to clean plastic from the 3D prints 
