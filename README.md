@@ -129,30 +129,30 @@ I used a white wire when running new cables since I didn't have any magenta wire
 
 - Reconnect the pinky and ring finger switches as follows:
 	- Pinky finger:
-		- Higher flick/blue wire: E6
-		- High flick/green wire: E7
-		- Flick/red wire: B4
-		- Push/orange wire: B5
-		- Pull/magenta wire: B6
- 		- Side Flick/yellow: F0
+		- High Pull/blue wire: B6
+		- Pull/magenta wire: B5
+		- Push/orange wire: B4
+		- Flick/red wire: E7
+ 		- High Flick/green wire: E6 
+   		- Side Flick/yellow: F0
 	- Ring finger:
- 		- Higher flick/blue wire: F5
-   		- High flick/green wire: F4
-		- Flick/red wire: F3
-		- Push/orange wire: F2
-  		- Pull/magenta wire: F1
+ 		- High Pull/blue wire: F1
+   		- Pull/magenta wire: F2
+		- Push/orange wire: F3
+		- Flick/red wire: F4
+  		- High Flick/green wire: F5
 	- Middle finger:
-		- Higher flick/blue wire: D3
-		- High flick/green wire: D2
-		- Flick/red wire: D1
-		- Push/orange wire: D0
-		- Pull/magenta wire: B7 
+		- High Pull/blue wire: B7
+		- Pull/magenta wire: D0
+		- Push/orange wire: D1
+		- Flick/red wire: D2
+		- High Flick/green wire: D3  
 	- Index finger:
- 		- Higher flick/blue wire: D4
-		- High flick/green wire: D5
-		- Flick/red wire: E0
-		- Push/orange wire: E1
-		- Pull/magenta wire: C0
+		- High Pull/blue wire: D4
+		- Pull/magenta wire: D5
+		- Push/orange wire: E0
+		- Flick/red wire: E1
+		- High Flick/green wire: C0
 		- Side Flick/yellow: C1
 	- Thumb:
  		- Thumb side flick/yellow wire: C2
