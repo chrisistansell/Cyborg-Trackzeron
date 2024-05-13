@@ -63,7 +63,7 @@ No.  But I will gladly assist you in your build.
 	- It's end of support but still finding a few places like this that have the microcontroller [AliExpress Teensy 2.0++](https://www.aliexpress.us/item/2255800849800105.html?gatewayAdapt=glo2usa). 
 	- I used 4 of these since I can't find a 20 pin version: [Screw Terminal Block Connectors](https://a.co/d/1D0JK94)
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/citizenjoe/pmw3360-motion-sensor/)
-- [3D printed Lava Lamp Inspired 34mm v2 STL]([https://github.com/chrisistansell/Cyborg-Trackzeron/tree/main/3D%20Print%20Files/34mm%20Lava%20Lamp%20Design%20STL%20v2])
+- [3D printed Lava Lamp Inspired 34mm v2 STL](https://github.com/chrisistansell/Cyborg-Trackzeron/tree/main/3D%20Print%20Files/34mm%20Lava%20Lamp%20Design%20STL%20v2)
 
 ### Trackball Options
 - 34mm Tackball: This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
