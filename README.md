@@ -160,13 +160,11 @@ No.  But I will gladly assist you in your build.
 	- LED:
  		- LED 2/green wire: C5
   		- LED 1/blue wire: C6
-    	- GND:
-     		- GND 1(Pin 1 Right side) - Top View Mounted - Azeron Ground Block
-       		- GND 2(Pin 31 Left side) - Top View Mounted - Twist Mouse GD and this (pin 31) GND together/Azeron Ground Block
-         		- Twisting these wires is due to the terminal block being fully occupied.
-         		- Having this is important otherwise you might experience computer sleep issues (this is optional if you decide to not run a wire to pin 31/GND)
-           		- You might find out that you don't need the wire from pin 31 to GND, in this case you will not need to twist wires.
-        
+    	- Grounding your hardware:
+     		- GND 1(Pin 1 Right side) - Top View Mounted - Azeron Ground Block (this already exists default from Azeron)
+       		- GND 2(Pin 31 Left side) - Top View Mounted - (Optional) This pin is unused but might be required if you have issues with sleep performance on your computer.
+         		- If sleep issues are encounterd, a piece of cable needs to be added from this pin to the ground block.
+         		- Due to limited connectons on the terminal block you can wwist Mouse ground (GND) and this (pin 31) GND together/Azeron then place it in the ground terminal once used by the thumbstick into the ground block.        
 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
