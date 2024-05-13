@@ -196,4 +196,7 @@ I used my own wiring for the optical sensor to the teensy board.  So I substitut
 	- Make sure that you have downloaded the drivers for QMK toolbox to work correctly! 
 - Take a look at keymaps in [VIA](https://www.caniusevia.com/), make any changes that you would like using the via.json file in the root directry of QMK > Cyborg Trackzeron.  Take the time to make a second profile tied to the profile switch on the palm rest of your Cyborg.  FN key activates an additional layer on your keypad if you would like to map that somewhere in your layout on your controllers for additional controls.
 - Tweak your cursor accuracy using [rawaccel](https://github.com/a1xd/rawaccel).
+
+![Recommended Generic Settings for Your Trackball](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Pinouts/Rawaccel%20Generic%20Recommendation.png)
+
 - Enjoy trackball keypad!
