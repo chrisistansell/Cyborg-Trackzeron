@@ -163,7 +163,7 @@ No.  But I will gladly assist you in your build.
     	- Grounding your hardware:
      		- GND 1(Pin 1 Right side) - Top View Mounted - Azeron Ground Block (this already exists default from Azeron)
        		- GND 2(Pin 31 Left side) - Top View Mounted - (Optional) This pin is unused but might be required if you have issues with sleep performance on your computer.
-         		- If sleep issues are encounterd, a piece of cable needs to be added from this pin to the ground block.
+         		- If sleep issues are encountered, a piece of cable needs to be added from this pin to the ground block.
          		- Due to limited connectons on the terminal block you can wwist Mouse ground (GND) and this (pin 31) GND together/Azeron then place it in the ground terminal once used by the thumbstick into the ground block.        
 
 ### Connect the PMW3360 Sensor:
