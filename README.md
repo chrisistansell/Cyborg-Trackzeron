@@ -104,9 +104,9 @@ No.  But I will gladly assist you in your build.
 
 - 3D print the trackball assembly.   
 - Push the ceramic ball bearings into the trackball assembly.   
-- Strip and tin 7-9 inches of 28 AWG hookup wire OR desolder the wires attached to the thumbstick and D-pad. Need 6 wires.
+- Strip and tin 7-9 inches of 28 AWG hookup wire. Make sure you add 2-3 inches to the black wire to reach the grounding block.  You will need 6 wires.
 - Solder wires to the PMW3360 sensor pins (The other two are not used):
-	- GD (Save yourself some headaches and just run this to the Azeron Ground Block)
+	- GD 
 	- SS    
 	- SC
 	- MO
