@@ -113,10 +113,6 @@ No.  But I will gladly assist you in your build.
 	- MI    
 	- VI
 
-![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
-
-I used a white wire when running new cables since I didn't have any magenta wire to use.
-
 ### Rewire the Azeron (Cyborg/Cyborg Compact)
 
 - Remove the Azeron palmrest to reveal the Teensy Board
