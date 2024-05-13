@@ -1,6 +1,6 @@
 This Readme is coutesy of MK's main Trackzeron GitHub project.  A special thanks to his inspiration.  This will forever be linked to his OG mod of the Azeron Classic as a fork.
 
-Please note that due to angles of the sensor in the design, you will need to use software such as rawaccel or your on scripts to set the rotation between 10-15%.  Otherwise you will get a down pitch to the left on mouse movement.
+Please note that due to angles of the sensor in the design, you will need to use software such as [rawaccel](https://github.com/a1xd/rawaccel) or your on scripts to set the rotation between 10-15%.  Otherwise you will get a down pitch to the left on mouse movement.
 
 # TRACKzeron: Adding trackball functionality to the [Azeron Keypad](https://www.azeron.eu/)
 
@@ -192,7 +192,8 @@ I used my own wiring for the optical sensor to the teensy board.  So I substitut
 - Fit the trackball assembly to the Azeron thumb rail.   
 - Reattach the palmrest
 - Place ball in cup.
-- Load firmware HEX file using the QMK Toolbox by choosing AT90USB1286 for the MCU then pointi to the cyborg_trackzeron_via.hex file then pressing the reset button on the underside of the controller.  If you check auto flash it will apply the .hex once you press the DFU button.  If you do not click it, then you will need to click the flash button in the QMK toolbox application.
+- Load firmware HEX file using the [QMK Toolbox](https://github.com/qmk/qmk_toolbox) by choosing AT90USB1286 for the MCU then pointi to the cyborg_trackzeron_via.hex file then pressing the reset button on the underside of the controller.  If you check auto flash it will apply the .hex once you press the DFU button.  If you do not click it, then you will need to click the flash button in the QMK toolbox application.
 	- Make sure that you have downloaded the drivers for QMK toolbox to work correctly! 
-- Take a look at keymaps in VIA, make any changes that you would like using the via.json file in the root directry of QMK > Cyborg Trackzeron.  Take the time to make a second profile tied to the profile switch on the palm rest of your Cyborg.  FN key activates an additional layer on your keypad if you would like to map that somewhere in your layout on your controllers for additional controls.
-- Enjoy trackball keypad
+- Take a look at keymaps in [VIA](https://www.caniusevia.com/), make any changes that you would like using the via.json file in the root directry of QMK > Cyborg Trackzeron.  Take the time to make a second profile tied to the profile switch on the palm rest of your Cyborg.  FN key activates an additional layer on your keypad if you would like to map that somewhere in your layout on your controllers for additional controls.
+- Tweak your cursor accuracy using [rawaccel](https://github.com/a1xd/rawaccel).
+- Enjoy trackball keypad!
