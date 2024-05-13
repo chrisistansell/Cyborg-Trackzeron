@@ -164,8 +164,9 @@ I used a white wire when running new cables since I didn't have any magenta wire
   		- LED 1/blue wire: C6
     	- GND:
      		- GND 2(Left side - Top View)/Azeron Ground Block
-       		- GND 1(Right side - Top View) - Twist Mouse GD and this GND together/Azeron Ground Block
-         		- Having this is important otherwise you might experience computer sleep issues     
+       		- GND 1(Right side - Top View) - Twist Mouse GD and this (pin 31) GND together/Azeron Ground Block
+         		- Having this is important otherwise you might experience computer sleep issues (this is optional if you decide to not run a wire to pin 31/GND)
+           			- You might find out that you don't need the wire from pin 31 to GND.      
         
 
 ### Connect the PMW3360 Sensor:
