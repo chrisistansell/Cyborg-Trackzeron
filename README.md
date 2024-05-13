@@ -75,9 +75,9 @@ No.  But I will gladly assist you in your build.
 
 ### Cabling (Optional if desoldering)
 - [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
-   - You could also use a terminal block with screw mounts to make connectivity easier. [8-pin 2.54mm Pitch PCB Terminal Block](https://www.amazon.com/dp/B098QLRFMF?ref=ppx_yo2ov_dt_b_product_details&th=1)
-      - Using this will make it so you are unable to attach the shroud to the back to hide the sensor if you are using the simple v1/v2 3D print.
-      - This will be hidden inside the "box" if you use v3 3D print.
+	- You could also use a terminal block with screw mounts to make connectivity easier. [8-pin 2.54mm Pitch PCB Terminal Block](https://www.amazon.com/dp/B098QLRFMF?ref=ppx_yo2ov_dt_b_product_details&th=1)
+	- Using this will make it so you are unable to attach the shroud to the back to hide the sensor if you are using the simple v1/v2 3D print.
+	- This will be hidden inside the "box" if you use v3 3D print.
 
 ### Hardware 
 - 1 [M2.5 280pc Button Head Hex Screws](https://www.amazon.com/gp/product/B09CPDVYB7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
@@ -92,8 +92,8 @@ No.  But I will gladly assist you in your build.
 - screwdrivers: Azeron screwdriver with hex head, philips, and small flat head screwdriver to clean plastic from the 3D prints 
 - precision tweezers
 - soldering iron & solder 
-  - wick is optional but helpful if you have soldering issues to undo
-  - I also suggest a magnifying glass lamp and a heat proof working surface
+	- wick is optional but helpful if you have soldering issues to undo
+	- I also suggest a magnifying glass lamp and a heat proof working surface
 - wire friendly scissors (i use Klein)
 - wire stripper
 - wire cutters
@@ -112,6 +112,8 @@ No.  But I will gladly assist you in your build.
 	- MO
 	- MI    
 	- VI
+
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Pinouts/PMW3360%20-%20Teensy.png)
 
 ### Rewire the Azeron (Cyborg/Cyborg Compact)
 
@@ -175,9 +177,11 @@ No.  But I will gladly assist you in your build.
    	- MI: B3
    	- VI: +5V
 
-
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Pinouts/PMW3360%20-%20Teensy.png)
 
 ![Final Wiring](https://github.com/chrisistansell/Cyborg-Trackzeron---Teensy-2.0/blob/main/Pinouts/Final%20Wiring.png)
+
+![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Pinouts/Finger%20Image%20%26%20Pinout.png)
 
 ![](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/Pinouts/Screenshot%202024-05-12%20191039.png)
  
