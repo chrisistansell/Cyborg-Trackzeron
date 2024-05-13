@@ -164,7 +164,7 @@ No.  But I will gladly assist you in your build.
      		- GND 1(Pin 1 Right side) - Top View Mounted - Azeron Ground Block (this already exists default from Azeron)
        		- GND 2(Pin 31 Left side) - Top View Mounted - (Optional) This pin is unused but might be required if you have issues with sleep performance on your computer.
          		- If sleep issues are encountered, a piece of cable needs to be added from this pin to the ground block.
-         		- Due to limited connectons on the terminal block you can twist the optical sensor (mouse) ground cable (GND) and this (pin 31) GND together/Azeron then place it in the ground terminal once used by the thumbstick into the ground block.        
+         		- Due to limited connectons and only having 1 open slot on the terminal block that was freed up by removing the thumbstick, you can twist the optical sensor (mouse) ground cable (GND) and this (pin 31) GND together/Azeron then place it in the open ground terminal slot.
 
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
