@@ -160,7 +160,7 @@ No.  But I will gladly assist you in your build.
 	- LED:	
  		- LED 2/green wire: C5
   		- LED 1/blue wire: C6
-    - 
+
 ### Grounding your hardware:
 - GND 1(Pin 1 Right side) - Top View Mounted - Azeron Ground Block (this already exists default from Azeron)
 - GND 2(Pin 31 Left side) - Top View Mounted - (Optional) This pin is unused but might be required if you have issues with sleep performance on your computer.
