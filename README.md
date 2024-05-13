@@ -173,10 +173,6 @@ I used a white wire when running new cables since I didn't have any magenta wire
 ### Connect the PMW3360 Sensor:
 -   Connect the sensor to the Teensy board as follows:
 
-![Sensor-Teensy](https://user-images.githubusercontent.com/16569424/107109078-1ae3d580-680b-11eb-8402-30c224dd913e.png)
-
-I used a white wire when running new cables since I didn't have any magenta wire to use.
-
    - GD: GND (Twist this with GND 1 and place in Azeron Ground Block)
    - SS: B0
    - SC: B1
