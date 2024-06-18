@@ -63,8 +63,8 @@ No.  But I will gladly assist you in your build.
 	- It's end of support but still finding a few places like this that have the microcontroller [AliExpress Teensy 2.0++](https://www.aliexpress.us/item/2255800849800105.html?gatewayAdapt=glo2usa). 
 	- I used 4 of these since I can't find a 20 pin version: [Screw Terminal Block Connectors](https://a.co/d/1D0JK94)
 - [PMW3360 Motion Sensor](https://www.tindie.com/products/citizenjoe/pmw3360-motion-sensor/)
-- [Trackzeron v4](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/3D%20Print%20Models/Trackzeron%20v4%20-%20PTEG.stl)(https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/3D%20Print%20Models/Trackzeron%20v4%20-%20PTEG.stl)
-- [Trackzeron Base v4](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/3D%20Print%20Models/Trackzeron%20Base%20v4%20-%20PTEG.stl)
+- [Trackzeron v4](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/3D%20Print%20Models/Trackzeron%20v4%20-%20PTEG.stl) This is the model for the top half of the trackball holder.
+- [Trackzeron Base v4](https://github.com/chrisistansell/Cyborg-Trackzeron/blob/main/3D%20Print%20Models/Trackzeron%20Base%20v4%20-%20PTEG.stl) This is the model for the bottom half of the trackball holder.
 
 ### Trackball Options
 - 34mm Tackball: This could be a variety of trackballs on the market that fit the Logitech M570.  I personally tested color variant trackballs made by Perixx.  [Perixx PERIPRO-303 GBK 1.34"](https://www.amazon.com/dp/B08DD6GQRV?psc=1&ref=ppx_yo2ov_dt_b_product_details/)
