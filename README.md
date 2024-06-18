@@ -78,7 +78,7 @@ No.  But I will gladly assist you in your build.
 - [28 AWG wire](https://www.amazon.com/dp/B089Cq1C8L) You can reuse the wires going to the thumbstick if you like, you will likely need solder wick.  I recommend getting your own wire so you can revert your controller if needed.  Also good to have the wire so you can ground to the block rather than the teensy.
 	- You could also use a terminal block with screw mounts to make connectivity easier. [8-pin 2.54mm Pitch PCB Terminal Block](https://www.amazon.com/dp/B098QLRFMF?ref=ppx_yo2ov_dt_b_product_details&th=1)
 	- Using this will make it so you are unable to attach the shroud to the back to hide the sensor if you are using the simple v1/v2 3D print.
-	- This will be hidden inside the "box" if you use v3 3D print.
+	- This will be hidden inside the "box" if you use v3 or v4 3D print.
 
 ### Hardware 
 - 1 [M2.5 280pc Button Head Hex Screws](https://www.amazon.com/gp/product/B09CPDVYB7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
