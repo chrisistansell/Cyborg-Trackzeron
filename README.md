@@ -1,5 +1,7 @@
 This Readme is coutesy of MK's main Trackzeron GitHub project.  A special thanks to his inspiration.  This will forever be linked to his OG mod of the Azeron Classic as a fork.
 
+UPDATE:  9/27/24.  This project is pretty much on hold now that I've been able to break away from the Teensy2.0++ microcontroller and get the device working as a stand alone device. It's currently being tested by several members of the Azeron Discord community.  I'm currently testing moving to a more modern chip and getting USB-C working.  At some point I will try to open source it to everyone but for now a lot of this is in development. 
+
 Please note that due to angles of the sensor in the design, you will need to use software such as [rawaccel](https://github.com/a1xd/rawaccel) or your on scripts to set the rotation between 10-15%.  Otherwise you will get a down pitch to the left on mouse movement.
 
 # TRACKzeron: Adding trackball functionality to the [Azeron Keypad](https://www.azeron.eu/)
