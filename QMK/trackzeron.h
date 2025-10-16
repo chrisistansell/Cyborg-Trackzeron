@@ -1,42 +1,27 @@
-/* Copyright 2020 Christopher Courtney, aka Drashna Jael're  (@drashna) <drashna@live.com>
- * Copyright 2019 Sunjun Kim
- * Copyright 2020 Ploopy Corporation
- * Copyright 2020 MK
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+/* Copyright 2023 Coaleyed */
 
 #pragma once
 
 #include "quantum.h"
-#include "spi_master.h"
 #include "analog.h"
-#include "pointing_device.h"
 
-void process_mouse(report_mouse_t* mouse_report);
-void process_mouse_user(report_mouse_t* mouse_report, int16_t x, int16_t y);
+// Layer definitions
+#define PROFILE_1               0
+#define SECOND_LAYER_PROFILE_1  1
+#define PROFILE_2               2
+#define SECOND_LAYER_PROFILE_2  3
 
-typedef union {
-  uint32_t raw;
-  struct {
-    uint8_t    dpi_config;
-  };
-} keyboard_config_t;
+// Pin mappings
+#define DIP_SWITCH_LED_PIN F6  // LED 1
+#define PROFILE_LED_PIN C5     // LED 2
+#define DIP_SWITCH_1_PIN F7
+#define DIP_SWITCH_COUNT 1
 
-extern keyboard_config_t keyboard_config;
+// Function prototypes
+void update_leds_based_on_layer(void);
+void print_sensor_status(void);
+void toggle_gesture_support(void);
+void keyboard_pre_init_user(void);
 
-enum ploopy_keycodes {
-    DPI_CONFIG = SAFE_RANGE,
-    PLOOPY_SAFE_RANGE,
-};
+// Global flags
+extern bool gesture_enabled;

@@ -1,20 +1,18 @@
 # MCU name
 MCU = at90usb1286
 
+# Processor frequency
+F_CPU = 16000000
+
 # Bootloader selection
 BOOTLOADER = halfkay
 
 # Build Options
-BOOTMAGIC_ENABLE = yes     # Virtual DIP switch configuration
-EXTRAKEY_ENABLE = yes       # Audio control and System control
-# Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
-UNICODE_ENABLE = no         # Unicode
-DIP_SWITCH_ENABLE = yes
-COMMAND_ENABLE = no			# Enable or disable the command feature
-CONSOLE_ENABLE = yes        # Enable or disable the console feature
-NKRO_ENABLE = yes           # Enable or disable NKRO (N-Key Rollover) feature
-AUDIO_ENABLE = no           # Audio output
+DIP_SWITCH_ENABLE = yes     # Virtual DIP switch configuration
 POINTING_DEVICE_ENABLE = yes
 POINTING_DEVICE_DRIVER = pmw3360
-MOUSEKEY_ENABLE = yes        # Mouse keys
-QUANTUM_LIB_SRC += analog.c spi_master.c
+MOUSEKEY_ENABLE = yes
+RGBLIGHT_ENABLE = no
+BACKLIGHT_ENABLE = no
+AUDIO_ENABLE = no
+COMMAND_ENABLE = no
