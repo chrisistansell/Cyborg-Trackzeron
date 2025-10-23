@@ -1,77 +1,55 @@
 #include "trackzeron.h"
-#include "quantum.h"
+#include <avr/eeprom.h>
 
-#ifdef DEBUG_TRACKZERON
-#    include "print.h"
-#endif
-
-extern bool suspended;
-extern bool dip_switch_map[DIP_SWITCH_COUNT];
-
-bool gesture_enabled = false;
+uint8_t active_profile = PROFILE_1;
 
 void keyboard_pre_init_user(void) {
-    setPinOutput(DIP_SWITCH_LED_PIN);  // F6
-    setPinOutput(PROFILE_LED_PIN);     // C5
-
-    #ifdef DEBUG_TRACKZERON
-    uprintf("Pins initialized\n");
-    #endif
+    setPinInputHigh(F6);      // HIGH = pressed
+    setPinInputHigh(F7);      // HIGH = pressed
+    setPinOutput(LED_1);      // C5
+    writePinHigh(LED_1);      // Default OFF
 }
 
-void update_leds_based_on_layer(void) {
-    uint8_t active_layer = get_highest_layer(layer_state);
+void keyboard_post_init_user(void) {
+    // Restore saved profile from EEPROM
+    eeprom_read_block(&active_profile, (void*)PROFILE_EEPROM_ADDR, sizeof(active_profile));
+    default_layer_set(1UL << active_profile);
+    update_leds_from_profile();
+}
 
-    if (active_layer == PROFILE_1 || active_layer == SECOND_LAYER_PROFILE_1) {
-        writePinLow(DIP_SWITCH_LED_PIN);   // LED 1 ON
-        writePinHigh(PROFILE_LED_PIN);     // LED 2 OFF
-    } else {
-        writePinHigh(DIP_SWITCH_LED_PIN);  // LED 1 OFF
-        writePinLow(PROFILE_LED_PIN);      // LED 2 ON
+void matrix_scan_user(void) {
+    bool f6_pressed = readPin(F6);
+    bool f7_pressed = readPin(F7);
+
+    uint8_t new_profile = active_profile;
+
+    if (f7_pressed) {
+        new_profile = PROFILE_1;
+    } else if (f6_pressed) {
+        new_profile = PROFILE_2;
     }
 
-    #ifdef DEBUG_TRACKZERON
-    uprintf("LED updated: active_layer = %d\n", active_layer);
-    #endif
+    if (new_profile != active_profile) {
+        active_profile = new_profile;
+        default_layer_set(1UL << active_profile);
+        eeprom_update_block(&active_profile, (void*)PROFILE_EEPROM_ADDR, sizeof(active_profile));
+        update_leds_from_profile();
+    }
 }
 
-void toggle_gesture_support(void) {
-    gesture_enabled = !gesture_enabled;
-
-    #ifdef DEBUG_TRACKZERON
-    uprintf("Gesture support: %s\n", gesture_enabled ? "ENABLED" : "DISABLED");
-    #endif
+void update_leds_from_profile(void) {
+    if (get_highest_layer(default_layer_state) == PROFILE_1) {
+        writePinLow(LED_1);  // LED ON
+    } else {
+        writePinHigh(LED_1); // LED OFF
+    }
 }
-
-#ifdef ENABLE_SENSOR_DEBUG
-void print_sensor_status(void) {
-    uprintf("Sensor status: [stub]\n");
-}
-#endif
 
 void suspend_power_down_user(void) {
-    suspended = true;
-    update_leds_based_on_layer();
-
-    #ifdef DEBUG_TRACKZERON
-    uprintf("Suspend: LED state updated\n");
-    #endif
+    writePinHigh(LED_1);
 }
 
 void suspend_wakeup_init_user(void) {
-    suspended = false;
-
-    if (dip_switch_map[0]) {
-        layer_clear();
-        layer_on(PROFILE_1);  // DIP ON → PROFILE_1
-    } else {
-        layer_clear();
-        layer_on(PROFILE_2);  // DIP OFF → PROFILE_2
-    }
-
-    update_leds_based_on_layer();
-
-    #ifdef DEBUG_TRACKZERON
-    uprintf("Wakeup: Profile reapplied and LED updated\n");
-    #endif
+    update_leds_from_profile();
 }
+
