@@ -5,11 +5,6 @@
 #include "trackzeron.h"
 
 // ─────────────────────────────────────────────────────────────
-// Suspend tracking
-// ─────────────────────────────────────────────────────────────
-bool suspended = false;
-
-// ─────────────────────────────────────────────────────────────
 // Keymaps
 // ─────────────────────────────────────────────────────────────
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {         
@@ -35,24 +30,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // ─────────────────────────────────────────────────────────────
-// Wake from suspend
-// ─────────────────────────────────────────────────────────────
-void suspend_wakeup_task(void) {
-    if (suspended) {
-        register_code(KC_SYSTEM_WAKE);
-        unregister_code(KC_SYSTEM_WAKE);
-        suspended = false;
-    }
-}
-
-// ─────────────────────────────────────────────────────────────
 // Key event handler
 // ─────────────────────────────────────────────────────────────
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case KC_BTN1:
             if (record->event.pressed) {
-                suspend_wakeup_task();
+                // Optional: harmless HID event to ensure wake
+                tap_code16(KC_NO);
             }
             break;
     }
