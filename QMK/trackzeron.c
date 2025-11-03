@@ -15,11 +15,6 @@ void keyboard_post_init_user(void) {
     eeprom_read_block(&active_profile, (void*)PROFILE_EEPROM_ADDR, sizeof(active_profile));
     default_layer_set(1UL << active_profile);
     update_leds_from_profile();
-
-    // Ensure pointing device and HID are ready
-    pointing_device_init();
-    pointing_device_task();
-    send_keyboard_report();
 }
 
 void matrix_scan_user(void) {
@@ -48,4 +43,9 @@ void update_leds_from_profile(void) {
     } else {
         writePinHigh(LED_1); // LED OFF
     }
+}
+
+// Stub for PMW3360 signature check
+bool pmw33xx_check_signature(uint8_t sensor) {
+    return true;
 }

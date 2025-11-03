@@ -1,3 +1,5 @@
+KEYBOARD := trackzeron
+
 # MCU name
 MCU = at90usb1286
 
@@ -17,6 +19,3 @@ RGBLIGHT_ENABLE = no
 BACKLIGHT_ENABLE = no
 AUDIO_ENABLE = no
 COMMAND_ENABLE = no
-
-# Force USB to Resume Logic After Suspend
-EXTRAFLAGS += -DNO_USB_STARTUP_CHECK

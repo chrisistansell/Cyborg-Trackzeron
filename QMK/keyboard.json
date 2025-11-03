@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "Cyborg Trackzeron",
+    "keyboard_name": "Trackzeron",
     "manufacturer": "Coaleyed",
     "maintainer": "Coaleyed",
     "bootmagic": {
@@ -13,8 +13,11 @@
     "mouse_sensor": {
         "type": "pwm3360",
         "pins": {
-                "ss": "B0", "sc": "B1", "mo": "B2", "mi": "B3", "vi": "5V", "grd": "block"          
-        }
+            "ss": "B0",
+            "sc": "B1",
+            "mo": "B2",
+            "mi": "B3"
+      }
     },
     "matrix_pins": {
         "direct": [
