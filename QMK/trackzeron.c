@@ -15,6 +15,9 @@ void keyboard_post_init_user(void) {
     eeprom_read_block(&active_profile, (void*)PROFILE_EEPROM_ADDR, sizeof(active_profile));
     default_layer_set(1UL << active_profile);
     update_leds_from_profile();
+
+    // Set PMW3360 DPI to 900
+    pointing_device_set_cpi(900);
 }
 
 void matrix_scan_user(void) {
