@@ -56,7 +56,7 @@ void matrix_scan_user(void) {
     if (f7_pressed) {
         new_profile = PROFILE_1;
     } else if (f6_pressed) {
-        new_profile = PROFILE_2;
+        new_profile = PROFILE_3;
     }
 
     if (new_profile != active_profile) {

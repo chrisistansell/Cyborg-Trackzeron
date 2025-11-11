@@ -2,6 +2,7 @@
     "name": "cyborg_trackzeron",
     "vendorId": "0x16C0",
     "productId": "0x0487",
+    "layers": [0, 1, 2, 3],
     "matrix": {"rows": 5,"cols": 7},
     "layouts": {
         "keymap": [
