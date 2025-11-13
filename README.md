@@ -1,7 +1,7 @@
 Where we are now, as we approach 2026. 
 
 Azeron Discord: Modifications Section.  I've invested a lot of time in the projects since this creation.  I enjoy working with the community to make their controller better.  Please take some time to visit there and make use of what you can find there.
-Etsy Storefront:  ![Coaleyed Gaming: Etsy Storefront](https://www.etsy.com/shop/CoaleyedGaming?ref=dashboard-header)
+Etsy Storefront:  [Coaleyed Gaming: Etsy Storefront](https://www.etsy.com/shop/CoaleyedGaming?ref=dashboard-header)
  
  - Standalone Trackball is available on this platform as static bearings and BTU driven motion.
  - Common modifications of pull and flick keys are available as well as my modded rails for the controller.
