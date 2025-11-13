@@ -1,6 +1,18 @@
-This Readme is coutesy of MK's main Trackzeron GitHub project.  A special thanks to his inspiration.  This will forever be linked to his OG mod of the Azeron Classic as a fork.
+Where we are now, as we approach 2026. 
 
-UPDATE:  9/27/24.  This project is pretty much on hold now that I've been able to break away from the Teensy2.0++ microcontroller and get the device working as a stand alone device. It's currently being tested by several members of the Azeron Discord community.  I'm currently testing moving to a more modern chip and getting USB-C working.  At some point I will try to open source it to everyone but for now a lot of this is in development. 
+Azeron Discord: Modifications Section.  I've invested a lot of time in the projects since this creation.  I enjoy working with the community to make their controller better.  Please take some time to visit there and make use of what you can find there.
+Etsy Storefront:  ![Coaleyed Gaming: Etsy Storefront](https://www.etsy.com/shop/CoaleyedGaming?ref=dashboard-header)
+ 
+ - Standalone Trackball is available on this platform as static bearings and BTU driven motion.
+ - Common modifications of pull and flick keys are available as well as my modded rails for the controller.
+ - Up and coming items include several planned mods for Cyborg 2 controllers as well as the Keyzen.
+ - In the case of special requests (through discord) I have made a mod for the trackball to convert the Cyro.
+ - At some point the next big plan is to sacrfice the index and middle towers to work on a finger driven trackball, hopefully I can revive the 55mm huge trackball in this journey.
+    
+Since there is a lot of open source here, this project has been set to complete by me.  I've even went through the code in 2025 to clean it up and catch the formating up with all the QMK changes.
+
+
+This Readme is coutesy of MK's main Trackzeron GitHub project.  A special thanks to his inspiration.  This will forever be linked to his OG mod of the Azeron Classic as a fork.
 
 Reference site for any of my 3D designs for the Azeron controller (and some Keycrhon stuff) can be found here: [Thingiverse|Coaleyed](https://www.thingiverse.com/coaleyed/designs)
 
