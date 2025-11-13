@@ -15,7 +15,7 @@ Since there is a lot of open source here, this project has been set to complete 
 
 This Readme is coutesy of MK's main Trackzeron GitHub project.  A special thanks to his inspiration.  This will forever be linked to his OG mod of the Azeron Classic as a fork.
 
-Reference site for any of my 3D designs for the Azeron controller (and some Keycrhon stuff) can be found here: [Thingiverse|Coaleyed](https://www.thingiverse.com/coaleyed/designs)
+Reference site for any of my 3D designs for the Azeron controller (and some Keychron stuff) can be found here: [Thingiverse|Coaleyed](https://www.thingiverse.com/coaleyed/designs)
 
 Please note that due to angles of the sensor in the design, you will need to use software such as [rawaccel](https://github.com/a1xd/rawaccel) or your on scripts to set the rotation between 10-15%.  Otherwise you will get a down pitch to the left on mouse movement.
 
